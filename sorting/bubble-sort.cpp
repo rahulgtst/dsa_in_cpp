@@ -25,6 +25,21 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
+void bubbleSortRecursive(int arr[], int n) {
+    int swapCount = 0;
+    for (int i = 0; i < n - 1; i++) {
+        if(arr[i] > arr[i+1]) {
+            swapCount += 1;
+            swap(arr[i], arr[i+1]);
+        }
+    }
+
+    cout<< "Number of Swaps: "<< swapCount << endl;
+    if(!swapCount) return;
+
+    bubbleSortRecursive(arr, n-1);
+}
+
 int main() {
     int n;
     cout << "Enter the number of elements: ";
@@ -40,7 +55,7 @@ int main() {
     cout << endl << "Array before sorting: " << endl;
     printArray(arr, n);
 
-    bubbleSort(arr, n);
+    bubbleSortRecursive(arr, n);
 
     cout << "Array after sorting: " << endl;
     printArray(arr, n);
