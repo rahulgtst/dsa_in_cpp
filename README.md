@@ -9,8 +9,8 @@ This repository contains my daily practice code, notes, and problem solutions as
 
 | Day    | Topics Covered                           | Status        |
 | ------ | ---------------------------------------- | ------------- |
-| Day 01 | Time Complexity + STL Basics             | ☐ Not Started |
-| Day 02 | Arrays - Basic Operations & Patterns     | ☐ Not Started |
+| Day 01 | Time Complexity + STL Basics             | ☐ Done        |
+| Day 02 | Arrays - Basic Operations & Patterns     | ☐ Done        |
 | Day 03 | Arrays - Prefix Sum, Sliding Window      | ☐ Not Started |
 | Day 04 | Sorting + Two Pointer Technique          | ☐ Not Started |
 | Day 05 | Binary Search & Applications             | ☐ Not Started |
